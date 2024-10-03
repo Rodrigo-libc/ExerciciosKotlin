@@ -34,6 +34,7 @@ fun main() {
 
     funcionario1.trabalho()
     funcionario2.trabalho()
-    funcionario2.teste() //Funcionario2 tem acesso aos metodos da classe Principal
+    funcionario2.teste() //funcionario2.teste() // O objeto 'funcionario2', uma instância de 'Editor',
+                        //pode acessar métodos herdados da classe base 'Funcionarios'.
 
 }
