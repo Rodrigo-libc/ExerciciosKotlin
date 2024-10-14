@@ -6,10 +6,8 @@ fun main() {
 
 
         listaCores.let {
-
              it.forEach { cor ->
                 println("Cor: $cor")
-
             }
         }
                 /*
