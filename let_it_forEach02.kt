@@ -8,13 +8,13 @@ fun main() {
 
         listaCoresMutavel.let {
             it.forEach { Cor ->
-                println("Fruta: $Cor")
+                println("Cor: $Cor")
                 /*
                     Saida:
-                    Fruta: Amarelo
-                    Fruta: Rosa
-                    Fruta: Vermelho
-                    Fruta: Verde
+                    Cor: Amarelo
+                    Cor: Rosa
+                    Cor: Vermelho
+                    Cor: Verde
                  */
             }
 
