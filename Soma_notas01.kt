@@ -16,7 +16,7 @@ fun calcular(){
             val nota = notaText.toDoubleOrNull()
 
             if (nota == null || nota < 0 || nota > 10){
-                println("Nota: $nota invalida, os valores devem ser entre (0-10)")
+                println("Nota: $nota invalida, somente notas entre (0-10)")
                 error = true
             }
             else {
