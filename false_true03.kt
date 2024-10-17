@@ -1,4 +1,4 @@
-//False, True Algoritimo
+//False, True Algoritmo
 
 fun dobrar(){
     var result = 0
