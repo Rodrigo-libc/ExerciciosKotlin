@@ -14,4 +14,9 @@ fun main() {
         idade = 29
     }
     pessoa.saudacao()
+
+    /*
+    Saida:
+    Meu nome é Rodrigo e tenho 29 anos de idade.
+    */
 }
