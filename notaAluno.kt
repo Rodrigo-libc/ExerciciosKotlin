@@ -32,10 +32,10 @@ fun main() {
     }
 
     if (!aluno.error && soma >= 30.0){
-        println("Aluno Aprovado: Sua nota é: $soma")
+        println("\nAluno Aprovado: Sua nota é: %.2f".format(soma))
 
     } else if (soma < 30.0 && !aluno.error){
-      println("Aluno Reprovado: Sua nota foi: $soma")
+        println("\nAluno Reprovado: Sua nota foi: %.2f".format(soma))
     }
 
 }
