@@ -52,7 +52,8 @@ fun main() {
                 if (numeroMoto != null && numeroMoto > 0 && numeroMoto <= motos.size ){
                     val removida = motos.removeAt(numeroMoto -1)
                     println("$removida removida com sucesso.")
-                }
+                } else
+                    println("Número inválido, tente novamente...")
             }
 
             "4" -> {
